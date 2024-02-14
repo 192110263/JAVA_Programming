@@ -1,3 +1,4 @@
+package Day_1;
 import java.util.*;
 public class Odd_Num {
     public static void main(String[] args){
@@ -15,13 +16,13 @@ public class Odd_Num {
         for(int j=0;j<n;j++){
             if(!(Num[j]%2==0)){
                 Odd[j]=Num[j];
-                count++;
+                count=count+1;
             }
         }
         System.out.print("the odd numbers are:");
         for(int k:Odd){
             System.out.print(k);
         }
-
+        sc.close();
     }
 }

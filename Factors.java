@@ -1,3 +1,4 @@
+package Day_1;
 import java.util.*;
 public class Factors {
     public static void main(String[] args){
@@ -21,5 +22,7 @@ public class Factors {
             N=sc.nextInt();
         }
         System.out.println("the Nth Factor is:"+list.get(N-1));
+        sc.close();
     }
 }
+
